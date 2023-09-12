@@ -39,3 +39,9 @@ a{
     color: #F2F5F7;
     font-size: 18px;
 }
+
+u{
+    background-color: #116DAB;
+    padding: 2px;
+    border-radius: 10px;
+}
