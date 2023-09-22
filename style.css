@@ -27,6 +27,10 @@ main {
     text-align: center;
 }
 
+#perfil {
+    width: 250px;
+}
+
 h1 {
     color: #FC4B00;
     font-size: 40px;
