@@ -53,7 +53,18 @@ a {
     text-decoration: none;
 }
 
-u {
+.destaque > p {
+    display: none;
+}
+
+.destaque:hover > p {
+    display:contents;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #FC4B00;
+}
+
+.destaque {
     background-color: #FC4B00;
     padding: 2px;
     border-radius: 10px;
