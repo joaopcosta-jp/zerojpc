@@ -53,6 +53,10 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: #FC4B00;
+}
+
 .destaque > p {
     display: none;
 }
@@ -60,8 +64,6 @@ a {
 .destaque:hover > p {
     display:contents;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #FC4B00;
 }
 
 .destaque {
