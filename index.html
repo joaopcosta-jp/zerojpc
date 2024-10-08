@@ -3,71 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zerojpc</title>
+    <title>JP</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <main>
-        <img src="imagens/profile.png" alt="foto-perfil">
-        <h1>JP</h1>
-
-        <nav id="menu">
-            <a href="">2023</a>
-            <br>
-            <nav>
-                <a href="pags/jogos23.html">Jogos</a> <br>
-                <a href="pags/livros23.html">Livros</a> <br>
-                <a href="pags/filmesseries23.html">Filmes/Séries</a>
-            </nav>
-        </nav>
-
-        <h2>Info</h2>
-        <p>
-            24 Anos <br>
-            Cursando Sistemas de Infrmação UniFTC(VCA) 6/8 <br>
-            Português/Inglês            
+    <nav id="menu" class="content">
+        <img src="assets/perfil.png" alt="Logo" id="logo">
+        <a href="index.html">Sobre mim</a>
+        <div class="dropdown">
+            <a href="">Hobbies</a>
+            <div id="hobbies">
+                <a href="pags/2023.html">2023</a>
+                <!-- <a href="pags/2024.html">2024</a> -->
+            </div>
+        </div>
+        <a href="files/JP_Currículo.pdf" target="_blank">Currículo</a>
+        <a href="pags/credits.html">Créditos</a>
+    </nav>
+    <div class="overlay"></div>
+    <main class="content">
+        <img src="assets/perfil.png" alt="fotoperfil">
+        <h1>Info</h1>
+        <p id="info">
+            João Pedro dos Santos Costa<br>
+            <span id="idade"></span> Anos<br>
+            Cursando Sistemas de Informação Unex(VCA) 7/?<br>
+            Português/Inglês
         </p>
-
+        <h2>Olá</h2>
+        <p>
+            Este site foi criado com intuito de ser um registro pessoal e para me aprofundar no estudo de HTML, CSS e JavaScript. Embora contenha algumas informações profissionais, não tem o objetivo de ser um currículo. Para acessar meu currículo, clique neste <a href="files/JP_Currículo.pdf" target="_blank">link</a> ou no menu acima.
+        </p>
         <h2>Skills</h2>
         <p>
-            HTML <img src="icones/html5.png" alt="html"><br>
-            CSS <img src="icones/css3.png" alt="css"><br>
-            JavaScript <img src="icones/js.png" alt="js"><br>
-            Java <img src="icones/java.png" alt="java"><br>
-            C <img src="icones/c.png" alt="c"><br>
-            Python <img src="icones/python.png" alt="python"><br>
-            Photoshop <img src="icones/ps.png" alt="photoshop"><br>
-            Gimp <img src="icones/gimp.png" alt="gimp">
+            HTML <img src="assets/icones/html5.png" alt="html"><br>
+            CSS <img src="assets/icones/css3.png" alt="css"><br>
+            JavaScript <img src="assets/icones/js.png" alt="js"><br>
+            Java <img src="assets/icones/java.png" alt="java"><br>
+            C <img src="assets/icones/c.png" alt="c"><br>
+            Python <img src="assets/icones/python.png" alt="python"><br>
+            Photoshop <img src="assets/icones/ps.png" alt="photoshop"><br>
+            Gimp <img src="assets/icones/gimp.png" alt="gimp">
         </p>
 
-        <h2>Oque estou fazendo no momento:</h2>
+        <h2>O que estou fazendo no momento:</h2>
         <p>
             Estudando: Banco de Dados<br>
-            Jogando: Hi-Fi Rush<br>
-            Lendo: Spiderwick: A Árvore de Ferro<br>
-            Assistindo: Cowboy Bebop
+            Jogando: Lies of P / Persona 3: Reload (DLC)<br>
+            Lendo: Spiderwick: Casa de Segredos<br>
+            Assistindo:
         </p>
 
-        <h2>Oque fiz em 2024</h2>
+        <h2>O que fiz em 2024</h2>
         <p>
-            Jogos Zerados: 22<br>
-            Livros Lidos: 7<br>
-            Filmes Assistidos: 4<br>
-            Séries Assistidas: 2
+            Jogos Zerados: 37<br>
+            Livros Lidos: 9<br>
+            Filmes Assistidos: 10<br>
+            Séries Assistidas: 3
         </p>
 
-        <h2>Links</h2>
-        <nav>
-            <a href="https://www.instagram.com/joaopcosta.jp/" target="_blank"><img src="icones/instagram.png" alt="instagram">Instagram</a>
-            <a href="https://github.com/joaopcosta-jp" target="_blank"><img src="icones/github.png" alt="">Github</a>
-            <a href="mailto:joaopedro08costa@hotmail.com" target="_blank"><img src="icones/outlook.png" alt="email">E-mail</a>
-            <a href="https://steamcommunity.com/id/zerojpc/" target="_blank"><img src="icones/steam.png" alt="steam">Steam</a>
-            <a href="https://open.spotify.com/playlist/67SGICyyV0RvsVpzlHFwR1?si=f485abb0154a44fa" target="_blank"><img src="icones/spotify.png" alt="playlist">Playlist</a>
-            <a href="https://www.worldcubeassociation.org/persons/2016COST03" target="_blank"><img src="icones/wca.png" alt="wca">WCA</a>
-        </nav>
-
-        <p class="footer">Desenvolvido por João Pedro Costa</p>
-        <p class="footer"><a href="https://www.deviantart.com/15mochi/art/Teknopathetic-795689691" target="_blank">BG by 15MOCHI</a></p>
     </main>
+    <footer class="content">
+        <nav>
+            <a href="https://www.instagram.com/joaopcosta.jp/" target="_blank"><img src="assets/icones/instagram.png" alt="instagram">Instagram</a>
+            <a href="https://github.com/joaopcosta-jp" target="_blank"><img src="assets/icones/github.png" alt="">Github</a>
+            <a href="mailto:joaopedro08costa@hotmail.com" target="_blank"><img src="assets/icones/outlook.png" alt="email">E-mail</a>
+            <a href="https://steamcommunity.com/id/zerojpc/" target="_blank"><img src="assets/icones/steam.png" alt="steam">Steam</a>
+            <a href="https://open.spotify.com/playlist/67SGICyyV0RvsVpzlHFwR1?si=f485abb0154a44fa" target="_blank"><img src="assets/icones/spotify.png" alt="playlist">Playlist</a>
+            <a href="https://www.worldcubeassociation.org/persons/2016COST03" target="_blank"><img src="assets/icones/wca.png" alt="wca">WCA</a>
+        </nav>
+    </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
